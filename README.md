@@ -1,6 +1,6 @@
 *This project is part of the [Simple Animations Framework](https://pub.dev/packages/simple_animations)*
 
-# 🎥 Stateless Animation
+# 🚀 Stateless Animation
 
 Stateless Animation does... 
 
