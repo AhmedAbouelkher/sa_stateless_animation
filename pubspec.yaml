@@ -1,6 +1,6 @@
 name: sa_stateless_animation
 description: A new Flutter package.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/felixblaschke/sa_stateless_animation
 
 environment:

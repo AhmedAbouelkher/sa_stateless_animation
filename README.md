@@ -2,13 +2,14 @@
 
 # 🚀 Stateless Animation
 
-Stateless Animation does... 
+Stateless Animation enables developers to craft custom animations with simple widgets.
 
 
 ## 🌞 Highlights
 
-- Some
-- Highlights
+- Create beautiful animations **within seconds**
+- **No struggeling** with stateful widgets and AnimationControllers
+
 
 ## ⛏ Usage
 

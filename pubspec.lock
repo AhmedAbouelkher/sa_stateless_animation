@@ -119,9 +119,9 @@ packages:
   sa_anicoto:
     dependency: "direct main"
     description:
-      path: "..\\sa_anicoto"
-      relative: true
-    source: path
+      name: sa_anicoto
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.0.2"
   sky_engine:
     dependency: transitive
