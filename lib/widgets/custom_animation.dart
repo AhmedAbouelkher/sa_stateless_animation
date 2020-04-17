@@ -4,20 +4,26 @@ part of sa_stateless_animation;
 enum CustomAnimationControl {
   /// Stops the animation at the current position.
   STOP,
+
   /// Plays the animation from the current position to the end.
   PLAY,
+
   /// Plays the animation from the current position reverse to the start.
   PLAY_REVERSE,
+
   /// Reset the position of the animation to `0.0` and starts playing
   /// to the end.
   PLAY_FROM_START,
+
   /// Reset the position of the animation to `1.0` and starts playing
   /// reverse to the start.
   PLAY_REVERSE_FROM_END,
+
   /// Endlessly plays the animation from the start to the end.
   /// Make sure to utilize [CustomAnimation.child] since a permanent
   /// animation eats up performance.
   LOOP,
+
   /// Endlessly plays the animation from the start to the end, then
   /// it plays reverse to the start, then forward again and so on.
   /// Make sure to utilize [CustomAnimation.child] since a permanent
@@ -127,7 +133,6 @@ class _CustomAnimationState<T> extends State<CustomAnimation<T>>
     _waitForDelay = false;
     _applyControlInstruction();
   }
-
 
   @override
   void didUpdateWidget(CustomAnimation<T> oldWidget) {
