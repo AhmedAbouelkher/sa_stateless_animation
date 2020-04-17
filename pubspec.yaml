@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   supercharged: ^1.4.0
-  sa_anicoto: ^0.0.1
+  sa_anicoto: ^0.0.3
 
 dev_dependencies:
   flutter_test:
