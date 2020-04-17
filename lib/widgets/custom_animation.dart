@@ -116,7 +116,7 @@ class _CustomAnimationState<T> extends State<CustomAnimation<T>>
     controller.value = widget.startPosition;
     controller.duration = widget.duration;
 
-    _animation = widget.tween.curved(widget.curve).animatedBy(controller);
+    _buildAnimation();
 
     if (widget.animationStatusListener != null) {
       controller.addStatusListener(widget.animationStatusListener);
@@ -124,6 +124,10 @@ class _CustomAnimationState<T> extends State<CustomAnimation<T>>
 
     asyncInitState();
     super.initState();
+  }
+
+  void _buildAnimation() {
+    _animation = widget.tween.curved(widget.curve).animatedBy(controller);
   }
 
   void asyncInitState() async {
@@ -137,6 +141,7 @@ class _CustomAnimationState<T> extends State<CustomAnimation<T>>
   @override
   void didUpdateWidget(CustomAnimation<T> oldWidget) {
     controller.duration = widget.duration;
+    _buildAnimation();
     _applyControlInstruction();
     super.didUpdateWidget(oldWidget);
   }
