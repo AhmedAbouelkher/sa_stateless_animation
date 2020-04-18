@@ -110,7 +110,7 @@ You can make your animation more interesting by applying a non-linear timing cur
 
 Scenarios where the animation is faster at beginning and slower at the ending are called **non-linear animations**.
 
-You can enrich your animation with non-linear behavior by supplying a `Curve` to the `curve` parameter. Flutter comes with a set of predined curves inside the `Curves` class.
+You can enrich your animation with non-linear behavior by supplying a `Curve` to the `curve` parameter. Flutter comes with a set of predefined curves inside the `Curves` class.
 
 ```dart
 PlayAnimation<Color>(
