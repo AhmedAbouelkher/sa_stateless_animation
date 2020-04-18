@@ -7,6 +7,8 @@
 
 Animates the size of a square within a stateless widget.
 
+![example1](https://raw.githubusercontent.com/felixblaschke/simple_animations_documentation_assets/master/sa_stateless_animation/v1/stateless-animation-1.gif)
+
 ```dart
 import 'package:flutter/material.dart';
 import 'package:simple_animations/simple_animations.dart';
@@ -39,6 +41,8 @@ class Page extends StatelessWidget {
 ## PlayAnimation widget with a child
 
 This example demonstrates the usage of a child widget along with `PlayAnimation`.
+
+![example2](https://raw.githubusercontent.com/felixblaschke/simple_animations_documentation_assets/master/sa_stateless_animation/v1/stateless-animation-2.gif)
 
 ```dart
 import 'package:flutter/material.dart';
@@ -73,6 +77,8 @@ class Page extends StatelessWidget {
 
 This example demonstrates a non-linear animation. A pink square increases it's size. The `easeOut` curve applied to the animation makes it slow down at the end.
 
+![example3](https://raw.githubusercontent.com/felixblaschke/simple_animations_documentation_assets/master/sa_stateless_animation/v1/stateless-animation-3.gif)
+
 ```dart
 import 'package:flutter/material.dart';
 import 'package:simple_animations/simple_animations.dart';
@@ -103,6 +109,8 @@ class Page extends StatelessWidget {
 ## PlayAnimation with delay
 
 This example demonstrates an animation that waits for two seconds before it starts it's animation.
+
+![example4](https://raw.githubusercontent.com/felixblaschke/simple_animations_documentation_assets/master/sa_stateless_animation/v1/stateless-animation-4.gif)
 
 ```dart
 import 'package:flutter/material.dart';
@@ -136,6 +144,8 @@ class Page extends StatelessWidget {
 
 Animation that repeatly pops up a text.
 
+![example5](https://raw.githubusercontent.com/felixblaschke/simple_animations_documentation_assets/master/sa_stateless_animation/v1/stateless-animation-5.gif)
+
 ```dart
 import 'package:flutter/material.dart';
 import 'package:simple_animations/simple_animations.dart';
@@ -167,6 +177,8 @@ class Page extends StatelessWidget {
 ## MirrorAnimation
 
 This examples endlessly moves a green box from left to right.
+
+![example6](https://raw.githubusercontent.com/felixblaschke/simple_animations_documentation_assets/master/sa_stateless_animation/v1/stateless-animation-6.gif)
 
 ```dart
 import 'package:flutter/material.dart';
@@ -202,6 +214,8 @@ class Page extends StatelessWidget {
 ## CustomAnimation in stateless environment
 
 Example of a pulsing square created with a fully configured `CustomAnimation` widget.
+
+![example7](https://raw.githubusercontent.com/felixblaschke/simple_animations_documentation_assets/master/sa_stateless_animation/v1/stateless-animation-7.gif)
 
 ```dart
 import 'package:flutter/material.dart';
@@ -240,6 +254,8 @@ class Page extends StatelessWidget {
 ## CustomAnimation in a stateful environment
 
 This example demonstrates the usage of `CustomAnimation` in a stateful widget.
+
+![example8](https://raw.githubusercontent.com/felixblaschke/simple_animations_documentation_assets/master/sa_stateless_animation/v1/stateless-animation-8.gif)
 
 ```dart
 import 'package:flutter/material.dart';
