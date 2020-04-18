@@ -2,18 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sa_stateless_animation/sa_stateless_animation.dart';
 import 'package:supercharged/supercharged.dart';
-
-extension WidgetTesterExtension on WidgetTester {
-  void addAnimationWidget(Widget widget) async {
-    await pumpWidget(widget);
-    await pump(100.milliseconds);
-  }
-
-  void wait(Duration duration) async {
-    await pump(50.days);
-    await pump(100.milliseconds);
-  }
-}
+import './widget_tester_extension.dart';
 
 void main() {
   testWidgets("CustomAnimation case1", (WidgetTester tester) async {
