@@ -1,3 +1,6 @@
-## [0.0.5] - TODO: Add release date.
+## 1.0.0
 
-* TODO: Describe initial release.
+- **New:** PlayAnimation
+- **New:** LoopAnimation
+- **New:** MirrorAnimation
+- **New:** CustomAnimation
