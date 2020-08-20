@@ -1,7 +1,7 @@
 
 # 📝 Examples
 
-🛈 *Note: These examples uses **[supercharged](https://pub.dev/packages/supercharged)** for syntactic sugar.*
+## *Note: These examples uses **[supercharged](https://pub.dev/packages/supercharged)** for syntactic sugar.*
 
 ## Simple PlayAnimation widget
 
